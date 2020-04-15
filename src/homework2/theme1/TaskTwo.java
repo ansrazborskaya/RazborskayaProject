@@ -6,18 +6,15 @@ public class TaskTwo {
 
     public static void main(String[] args) {
 
-
-       Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a day from 1 to 9: ");
-       int n = scanner.nextInt();
+        int n = scanner.nextInt();
 
         switch (n) {
             case 1:
-            case 8:
                 System.out.println("Monday");
                 break;
             case 2:
-            case 9:
                 System.out.println("Tuesday");
                 break;
             case 3:
@@ -38,11 +35,8 @@ public class TaskTwo {
             default:
                 System.out.println("The day doesn't meet the requirement n < 10!");
 
-
         }
 
-
     }
-
 
 }

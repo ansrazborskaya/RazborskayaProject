@@ -14,8 +14,7 @@ public class TwoDimArray {
         int n = scanner.nextInt();
 
 
-        
-        int [][] twoDim = new int[n][n];
+        int[][] twoDim = new int[n][n];
 
         for (int i = 0; i < n; i++) {
 
@@ -33,7 +32,6 @@ public class TwoDimArray {
             System.out.print("\n");
         }
 
-
     }
-    
+
 }
