@@ -1,4 +1,4 @@
-package homework2.theme1;
+package com.stormnet.homework.homework2.theme1;
 
 import java.util.Scanner;
 
