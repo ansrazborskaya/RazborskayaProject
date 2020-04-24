@@ -69,7 +69,9 @@ public class Card {
             boolean validInput = true;
             boolean cardFound = false;
 
-            if (String.valueOf(inputCard.getCardNumber()).length() < 16) {
+            String cuttedString = inputCard.getCardNumber().replaceAll(" ","");
+
+            if (cuttedString.length() < 16) {
                 System.out.printf("Respected %s , card number %s must be equal to 16 numbers !!", inputCard.getOwner(), inputCard.getCardNumber());
                 validInput = false;
             }
@@ -99,7 +101,7 @@ public class Card {
 
             for (Card card : cards) {
 
-                if (card.getCardNumber() == inputCard.getCardNumber()) {
+                if (card.getCardNumber().equals(cuttedString)) {
 
                     cardFound = true;
 

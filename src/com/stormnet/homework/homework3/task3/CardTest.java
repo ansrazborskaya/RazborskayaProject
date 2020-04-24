@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class CardTest {
     public static void main(String[] args) throws ParseException {
 
-        Card card = new Card("5535678911234567", "DEBIT", "Sidorov", new SimpleDateFormat("dd/MM/yyyy").parse("19/05/2021"), 22);
+        Card card = new Card("5535 6789 1123 4567", "DEBIT", "Sidorov", new SimpleDateFormat("dd/MM/yyyy").parse("19/05/2021"), 222);
 
         ArrayList<Card> cards = new ArrayList<>();
         cards.add(new Card("5535678911234567", "DEBIT", "Sidorov", new SimpleDateFormat("dd/MM/yyyy").parse("19/05/2021"), 222));
