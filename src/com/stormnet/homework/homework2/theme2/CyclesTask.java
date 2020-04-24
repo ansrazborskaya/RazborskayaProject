@@ -1,4 +1,4 @@
-package homework2.theme2;
+package com.stormnet.homework.homework2.theme2;
 
 public class CyclesTask {
 

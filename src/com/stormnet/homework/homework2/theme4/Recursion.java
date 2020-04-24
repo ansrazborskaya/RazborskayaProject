@@ -1,6 +1,5 @@
-package homework2.theme4;
+package com.stormnet.homework.homework2.theme4;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Recursion {
