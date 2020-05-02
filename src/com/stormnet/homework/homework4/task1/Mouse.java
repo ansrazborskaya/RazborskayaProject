@@ -19,21 +19,11 @@ public class Mouse extends Animal {
 
     @Override
     public void makeSound() {
-
         System.out.println("Mouse " + getName() + " says pi-pi-pi!");
-
     }
 
     @Override
     public void move() {
         System.out.println("Mouse runs away from a predator");
-
-    }
-
-    @Override
-    public void eat(Animal animal) {
-
-        System.out.println("This " + animal.getName() + " wants to eat me");
-
     }
 }

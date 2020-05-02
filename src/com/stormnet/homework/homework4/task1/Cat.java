@@ -19,29 +19,11 @@ public class Cat extends Animal {
 
     @Override
     public void makeSound() {
-
         System.out.println("Cat " + getName() + " says meow-meow!");
-
     }
 
     @Override
     public void move() {
-
         System.out.println("Cat " + getName() + " goes wherever he wants!");
-
     }
-
-    @Override
-    public void eat(Animal animal) {
-
-        System.out.println("This " + animal.getName() + " wants to eat me");
-
-    }
-
-    public void eatSomebody(Animal animal) {
-
-        System.out.println("Сat wants eat " + animal.getName());
-
-    }
-
 }

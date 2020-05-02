@@ -46,6 +46,5 @@ public abstract class Animal implements Behavioral {
         this.breed = breed;
     }
 
-
     public abstract void makeSound();
 }

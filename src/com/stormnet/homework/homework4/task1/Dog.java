@@ -24,15 +24,6 @@ public class Dog extends Animal {
 
     @Override
     public void move() {
-
         System.out.println("Dog runs after the tail");
-
-    }
-
-    @Override
-    public void eat(Animal animal) {
-
-        System.out.println("Dog wants to eat " + animal.getName());
-
     }
 }

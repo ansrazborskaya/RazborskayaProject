@@ -13,7 +13,7 @@ public class KelvinConverter implements Converter {
         System.out.println("Enter temperatures to convert to Kelvin: ");
         temperature = scanner.nextDouble();
 
-        System.out.println("Enter the temperature type in the following format: F or C");
+        System.out.println("Enter the temperature type in the following format: C");
         type = scanner.next().trim().charAt(0);
     }
 
@@ -22,14 +22,10 @@ public class KelvinConverter implements Converter {
 
         input();
 
-        if (type == 'F') {
-            double resultConvert = (temperature + 459.67) * (double) 5 / 9;
-            System.out.println("Kelvin temperature is " + resultConvert);
-        }
         if (type == 'C') {
             double resultConvert = temperature + 273.15;
             System.out.println("Kelvin temperature is " + resultConvert);
-        } else if (type != 'F' && type != 'C') {
+        } else if (type != 'C') {
             System.out.println("You entered an invalid temperature type!");
         }
     }

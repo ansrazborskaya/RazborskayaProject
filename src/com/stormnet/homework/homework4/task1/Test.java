@@ -7,12 +7,11 @@ public class Test {
         Dog dog = new Dog("Jack", "meat-eating", "canine", "German Shepherd", "ball");
         Mouse mouse = new Mouse("Minni", "herbivore", "rodent", "field mouse", "house");
 
-        dog.eat(mouse);
-        mouse.move();
-        cat.eatSomebody(mouse);
-        mouse.eat(cat);
-        dog.makeSound();
-        cat.eat(dog);
-
+      cat.eatSomebody(mouse);
+      mouse.move();
+      dog.eatSomebody(cat);
+      cat.beEaten(dog);
+      mouse.beEaten(dog);
+      cat.makeSound();
     }
 }
