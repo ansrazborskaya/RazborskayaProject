@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Cashbox {
 
-    private Queue<Buyer> turnCashbox = new LinkedList<>();
+    private PriorityQueue<Buyer> turnCashbox = new PriorityQueue<>();
     private double cassSum = 0;
 
     void addBuyerToQuery(Buyer buyer) {
