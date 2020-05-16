@@ -19,5 +19,6 @@ public class Arrays<T> {
     public void returnItem(int i) {
 
         System.out.println(array[i]);
+
     }
 }
