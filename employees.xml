@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<medicine>
+    <hospital>
+        <employee surname="Petrov" name="Ihar" patronymic="Alexandrovich" position="Head physician" department="Surgery"
+                  workExperience="40 years"/>
+        <employee surname="Chehov" name="Pavel" patronymic="Alexandrovich" position="therapist" department="Surgery"
+                  workExperience="10 years"/>
+        <employee surname="Sidorova" name="Hanna" patronymic="Petrovna" position="Nurse" department="Hospital ward"
+                  workExperience="1 year"/>
+    </hospital>
+</medicine>
